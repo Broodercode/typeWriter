@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+#typingArea {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    min-height: 50px;
+    width: 300px;
+    word-wrap: break-word;
+}
+
+input[type="text"] {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    cursor: pointer;
+    margin: 5px;
+    padding: 5px 10px;
+}
